@@ -1,0 +1,9 @@
+# One-click deploy config for Render (https://render.com).
+# In the Render dashboard: New + > Blueprint, point it at this repo.
+services:
+  - type: web
+    name: downydowndown
+    runtime: docker
+    plan: free
+    healthCheckPath: /healthz
+    autoDeploy: true

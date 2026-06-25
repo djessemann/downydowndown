@@ -1,0 +1,15 @@
+{
+  "name": "downydowndown",
+  "version": "1.0.0",
+  "description": "Paste a YouTube, SoundCloud, or Mixcloud link and download the audio or video.",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
